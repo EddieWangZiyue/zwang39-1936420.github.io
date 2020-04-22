@@ -1,0 +1,59 @@
+/*Our Css document*/
+body {
+  background-image: url("background2.png");
+  
+   
+}
+#header{
+	text-align: center;
+	color: purple;
+	margin-left: 20px;
+}
+#header h1{
+  color: white;
+  
+  font-family: Verdana;
+}
+#header p1{
+	font-family: Times New Roman;
+}
+#header p2{
+	font-family: Arial;
+}
+.tacoimg {
+	height: 50px;
+	weight: 50px;
+	
+}
+
+#tacodiv{
+	position: relative;
+	
+}
+#BigImg{
+	width:100%;
+	height: auto;
+	margin-right: 20px;
+}
+#tacoTxt{
+	Left: 50%;
+	border-style: dotted;
+	text-shadow: 5px 5px 5px black;
+	position: absolute;
+	text-align: center;
+	top:50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	color:white
+}
+#floatTaco{
+	float:right;
+	background: white;
+	padding: 20px;
+	width: 150px;
+	height: 150px;
+	border-radius: 25px;	
+}
+#boardTaco{
+	width: 150px;
+}
